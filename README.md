@@ -4,6 +4,7 @@ Previous efforts have used machine learning to predict what neurotransmitters a 
 First, I reproduce those results in this project.
 These previous results are from an electron microscopy volume, the "Full Adult Female Brain," ([FAFB](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6063995/)), which uses serial section transmission electron microscopy.
 More recent electron microscopy volumes use Focused Ion Beam Scanning Electron Microscopy, which generates superior resolution in the z dimension, at the cost of x-y resolution.
+![ssTEM vs. FIB-SEM](https://github.com/philshiu/Neurotransmitter-classification/blob/main/Readme%20Images/Bouton%20vs%20synapse.png?raw=true)
 I find that using FIB-SEM microscopy images results in significantly worse neurotransmitter predictions.
 Finally, I compare synapse-level neurotransmitter predictions versus synaptic bouton-level predictions. Synaptic boutons contain many synapses; Eckstein et al., 2020 predicted
 neurotransmitters at the synapse-level. However, this may be problematic because each synapse level image, in which the synapse is at the center of the image. Because the synapse
