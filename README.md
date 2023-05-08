@@ -7,8 +7,8 @@ More recent electron microscopy volumes use Focused Ion Beam Scanning Electron M
 ![ssTEM vs. FIB-SEM](https://github.com/philshiu/Neurotransmitter-classification/blob/main/Readme%20Images/ssTEM%20vs%20FIBSEM.png?raw=true)
 I find that using FIB-SEM microscopy images results in significantly worse neurotransmitter predictions.
 Finally, I compare synapse-level neurotransmitter predictions versus synaptic bouton-level predictions. Synaptic boutons contain many synapses; Eckstein et al., 2020 predicted
-neurotransmitters at the synapse-level. However, this may be problematic because each synapse level image, in which the synapse is at the center of the image. Because the synapse
-is at the edge of the neuron, by definition, these images only contain 50% of the neuron of interest, and these images may be too small to contain relevant information to predict
+neurotransmitters at the synapse-level. However, this may be problematic because the synapse
+is at the edge of the neuron, so by definition, these images only contain 50% of the neuron of interest. Furthermore, these images may be too small to contain relevant information to predict
 neurotransmitters accurately. I find that predicting neurotransmitters using the entire synaptic bouton dramatically increases accuracy, even when the same total area of image data
 is used for training.
 ![Bouton vs. Synapse](https://github.com/philshiu/Neurotransmitter-classification/blob/main/Readme%20Images/Bouton%20vs%20synapse.png?raw=true)
