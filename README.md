@@ -1,4 +1,4 @@
-# Neurotransmitter-classification
+# Neurotransmitter classification
 Neurons use different neurotransmitters to communicate; some are excitatory, while others are inhibitory; others alter neural activities in more subtle ways. 
 Previous efforts have used machine learning to predict what neurotransmitters a neuron uses based on electron microscopy images ([Eckstein et al., 2020](https://www.biorxiv.org/content/10.1101/2020.06.12.148775v2)).
 First, I reproduce those results in this project.
